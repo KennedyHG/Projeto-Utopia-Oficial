@@ -477,9 +477,11 @@ text-align: center;
 #form-contato input,
 #form-contato textarea
 /* #form-contato select */ { 
-    border: solid 1px black;
+    border: solid 0px black;
     width: 100%;
     margin: 4px auto;
+    border-radius: 10px;
+
 }
 
 #form-contato select {
@@ -500,15 +502,24 @@ text-align: center;
     color: black;
     margin-top: 15px;
     margin-bottom: 0px;
+    font-family: cursive;
+        font-size: xx-large;
+        text-transform: uppercase;
+
 }
 
 
 .conteudo-contato {
-    margin: 5%;
+    margin: 60px auto;
+    font-family: 'open sans';
     text-align: center;
-    background-color: #f0e1df;
+    background-color: #812b24;
+    color: white;
     border-radius: 15px;
     padding: 2%;
+    width: 35%
+    
+    
 }
 
 
@@ -547,10 +558,10 @@ text-align: center;
   }
 
   #enviarContato{
-    background-color: #812b24;
-    width: 116px;
-    padding: 15px;
-    border-radius: 10px;
+    background-color: #25A154;
+    width: 0px auto;
+    padding: 10px;
+    border-radius: 20px;
     text-align: center;
     display: flex;
     /* align-content: center; */
